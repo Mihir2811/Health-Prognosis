@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heart Health Form</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
+<style>
+  body {
+    font-family:  Lora, serif;
+    background-image: url('med.jpg'); /* Your background image URL */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    color:#555;
+  }
+
+  #form-container {
+    width: 50%;
+    margin: 0 auto;
+    background-color:lightblue; /* Transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color:lightblue;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: calc(100% - 16px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+
+  input[type="submit"]:hover {
+    background-color:darkgreen;
+  }
+</style>
+</head>
+<body>
+
+<h2>Heart Attack Prediction Form</h2>
+
+<div id="form-container">
+  <form action="/predict" method="post">
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" required>
+    
+    <label for="sex">Sex:</label>
+    <select id="sex" name="sex" required>
+      <option value="1">Male</option>
+      <option value="0">Female</option>
+    </select>
+    
+    <label for="constrictive_pericarditis">Constrictive Pericarditis:</label>
+    <input type="text" id="constrictive_pericarditis" name="constrictive_pericarditis">
+    
+    <label for="resting_blood_pressure">Resting Blood Pressure:</label>
+    <input type="number" id="resting_blood_pressure" name="resting_blood_pressure" required>
+    
+    <label for="cholesterol">Cholesterol:</label>
+    <input type="number" id="cholesterol" name="cholesterol" required>
+    
+    <label for="fasting_blood_sugar">Fasting Blood Sugar:</label>
+    <input type="number" id="fasting_blood_sugar" name="fasting_blood_sugar" required>
+    
+    <label for="resting_electrocardiographic">Resting Electrocardiographic:</label>
+    <input type="text" id="resting_electrocardiographic" name="resting_electrocardiographic">
+    
+    <label for="max_heart_rate">Maximum Heart Rate:</label>
+    <input type="number" id="max_heart_rate" name="max_heart_rate" required>
+    
+    <label for="exercise_induced_angina">Exercise Induced Angina:</label>
+    <input type="text" id="exercise_induced_angina" name="exercise_induced_angina">
+    
+    <label for="oldpeak">Oldpeak:</label>
+    <input type="number" id="oldpeak" name="oldpeak" required>
+    
+    <label for="slope">Slope:</label>
+    <input type="text" id="slope" name="slope">
+    
+    <label for="calcium">Calcium:</label>
+    <input type="text" id="calcium" name="calcium">
+    
+    <label for="thalassemia">Thalassemia:</label>
+    <input type="text" id="thalassemia" name="thalassemia">
+    
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
