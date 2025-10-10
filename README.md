@@ -1,24 +1,20 @@
-# Social Piggybacking: Twitter Sentiment Analysis of COVID-19 Tweets
+# Health Prognosis: A Machine Learning Approach to Disease Prediction
 
-This project analyzes the sentiment of tweets related to COVID-19 to gain insights into public opinion during the pandemic. It leverages Natural Language Processing (NLP) techniques to classify tweets as positive, negative, or neutral.
-
-## Dataset
-
-The project uses the `covid19_tweets.csv` dataset, which is contained within the `covid19_tweets.rar` archive. This dataset includes a collection of tweets and their corresponding metadata.
+This project uses machine learning to predict the likelihood of a person having a particular disease based on their symptoms. It serves as a tool for preliminary health assessment, offering a prognosis based on user-inputted symptoms.
 
 ## Features
 
-* **Data Preprocessing:** Cleans and preprocesses tweet text for sentiment analysis.
-* **Sentiment Analysis:** Utilizes machine learning models to classify the sentiment of each tweet.
-* **Data Visualization:** Creates visualizations to represent the distribution of sentiments and other insights.
-* **Jupyter Notebook:** The entire analysis is documented and implemented in a Jupyter Notebook (`Social_PiggyBacking.ipynb`).
+* **Symptom-Based Prediction:** Takes a list of symptoms as input and predicts the most probable disease.
+* **Machine Learning Models:** Implements various classification models, including Decision Tree, Random Forest, and Naive Bayes, to provide accurate predictions.
+* **Comprehensive Dataset:** Trained on a dataset that maps a wide range of symptoms to different diseases.
+* **Jupyter Notebook:** The entire analysis and model development process is documented in a Jupyter Notebook (`Health Prognosis.ipynb`).
 
 ## Installation
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/Mihir2811/Social-PiggyBacking.git](https://github.com/Mihir2811/Social-PiggyBacking.git)
-    cd Social-PiggyBacking
+    git clone [https://github.com/Mihir2811/Health-Prognosis.git](https://github.com/Mihir2811/Health-Prognosis.git)
+    cd Health-Prognosis
     ```
 
 2.  **Create and activate a virtual environment (recommended):**
@@ -34,15 +30,12 @@ The project uses the `covid19_tweets.csv` dataset, which is contained within the
 
 ## Usage
 
-1.  **Extract the dataset:**
-    Un-archive the `covid19_tweets.rar` file to get the `covid19_tweets.csv` file.
-
-2.  **Launch Jupyter Notebook:**
+1.  **Launch Jupyter Notebook:**
     ```bash
     jupyter notebook
     ```
 
-3.  Open and run the `Social_PiggyBacking.ipynb` notebook to see the analysis.
+2.  Open and run the `Health Prognosis.ipynb` notebook to see the model in action. You can input a list of symptoms and get a disease prognosis.
 
 ## Technologies Used
 
@@ -50,8 +43,4 @@ The project uses the `covid19_tweets.csv` dataset, which is contained within the
 * Pandas
 * NumPy
 * Scikit-learn
-* NLTK
-* Matplotlib
-* Seaborn
-* WordCloud
 * Jupyter Notebook
