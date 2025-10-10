@@ -1,9 +1,5 @@
 pandas
 numpy
 scikit-learn
-nltk
-matplotlib
-seaborn
-wordcloud
 jupyter
 notebook
