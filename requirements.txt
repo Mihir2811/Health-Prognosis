@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+jupyter
+notebook
+openpyxl
+xlrd
+fastapi
+uvicorn
+python-multipart
