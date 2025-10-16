@@ -2,7 +2,7 @@
 
 A machine learning-powered web application that predicts the likelihood of heart disease based on patient medical data using multiple ML algorithms and automatically selects the best-performing model.
 
-## 🚀 Features
+## Features
 
 - **Multi-Model Comparison**: Evaluates 8 different ML algorithms to find the best performer
 - **Interactive Web Interface**: User-friendly Streamlit app for real-time predictions
@@ -10,7 +10,7 @@ A machine learning-powered web application that predicts the likelihood of heart
 - **Data Preprocessing**: Includes feature scaling and stratified train-test splitting
 - **Comprehensive Evaluation**: Detailed performance metrics and model comparison
 
-## 📊 Dataset
+## Dataset
 
 The project uses a Heart Attack dataset with 303 records and 14 features:
 
@@ -29,7 +29,7 @@ The project uses a Heart Attack dataset with 303 records and 14 features:
 - **Thalassemia**: Blood disorder (0-3)
 - **Target**: Heart disease presence (0 = No, 1 = Yes)
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3.x**
 - **Machine Learning**: scikit-learn, XGBoost
@@ -38,7 +38,7 @@ The project uses a Heart Attack dataset with 303 records and 14 features:
 - **Data Visualization**: Available in Jupyter notebook
 - **Model Persistence**: joblib
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 Health-Prognosis/
@@ -57,7 +57,7 @@ Health-Prognosis/
 └── README.md                     # Project documentation
 ```
 
-## 🤖 Machine Learning Models
+## Machine Learning Models
 
 The system evaluates the following algorithms:
 
@@ -70,7 +70,7 @@ The system evaluates the following algorithms:
 7. **Gradient Boosting Classifier**
 8. **XGBoost Classifier**
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository**
    ```bash
@@ -93,7 +93,7 @@ The system evaluates the following algorithms:
    streamlit run host.py
    ```
 
-## 💻 Usage
+## Usage
 
 ### Training Models
 Run the model comparison script to train all algorithms and save the best performer:
@@ -110,7 +110,7 @@ python main.py
 ### Jupyter Notebook
 Explore the data analysis and model development process in `Colab Files/Disease_Prediction.ipynb`
 
-## 📈 Model Performance
+## Model Performance
 
 The system automatically:
 - Splits data using stratified sampling (80% train, 20% test)
@@ -118,7 +118,7 @@ The system automatically:
 - Evaluates models using accuracy and F1-score
 - Saves the best-performing model and scaler
 
-## 🔧 Configuration
+## Configuration
 
 Key parameters can be modified in `main.py`:
 - Test size ratio
@@ -126,7 +126,7 @@ Key parameters can be modified in `main.py`:
 - Model hyperparameters
 - Evaluation metrics
 
-## 📝 Input Features for Prediction
+## Input Features for Prediction
 
 When using the web interface, provide:
 - Age (20-100)
@@ -143,14 +143,14 @@ When using the web interface, provide:
 - Major vessels (0-3)
 - Thalassemia (0-3)
 
-## 🎯 Output
+## Output
 
 The system provides:
 - **Binary prediction**: Heart disease present (1) or absent (0)
 - **Model confidence**: Based on the best-performing algorithm
 - **Performance metrics**: Accuracy and F1-score for model evaluation
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -158,15 +158,15 @@ The system provides:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👨‍💻 Author
+## Author
 
 **Mihir Panchal**
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Heart disease dataset contributors
 - scikit-learn and Streamlit communities
