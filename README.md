@@ -158,19 +158,9 @@ The system provides:
 4. Add tests if applicable
 5. Submit a pull request
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## Author
 
 **Mihir Panchal**
-
-## Acknowledgments
-
-- Heart disease dataset contributors
-- scikit-learn and Streamlit communities
-- Open source ML libraries
 
 ---
 
