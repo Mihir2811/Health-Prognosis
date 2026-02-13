@@ -2,7 +2,7 @@
 
 A machine learning-powered web application that predicts the likelihood of heart disease based on patient medical data using multiple ML algorithms and automatically selects the best-performing model.
 
-<video src="[https://user-images.githubusercontent.com/.../video.mp4](https://github.com/Mihir2811/Health-Prognosis/blob/main/Health%20Prognosis.mp4)" controls width="800"></video>
+[![Watch Demo]([https://img.youtube.com/vi/VIDEO_ID/0.jpg](https://i.ytimg.com/vi/62LdBGHYtvk/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLDwaAWPvPBX8_8rue76ZAIdS1EluA))]([https://www.youtube.com/watch?v=VIDEO_ID](https://www.youtube.com/watch?v=62LdBGHYtvk))
 
 ## Features
 
